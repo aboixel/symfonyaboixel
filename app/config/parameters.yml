@@ -1,0 +1,1 @@
+{ parameters: { database_driver: pdo_mysql, database_host: 127.0.0.1, database_port: null, database_name: sitenew, database_user: root, database_password: null, mailer_transport: gmail, mailer_host: localhost, mailer_user: a.boixel@gmail.com, mailer_password: Alicemadness23, locale: en, secret: 958ef866272e1c3ccfb5f5b10c51ce4662391931, database_path: null } }

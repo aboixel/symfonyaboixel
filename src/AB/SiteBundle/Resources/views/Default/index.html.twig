@@ -1,0 +1,27 @@
+{% extends "ABSiteBundle::layout.html.twig" %}
+
+{% block title %}
+  Accueil - {{ parent() }}
+{% endblock %}
+
+{% block absite_body %}
+
+  <h2>A propos</h2>
+
+<div class="row">
+								<div class="4u">
+									<article class="item">
+										<img src="{{ asset('public/images/refonte.jpg') }}" alt="refonte" width="128" height="128" />
+										<header>
+											<h3>Refonte de site </h3>
+										</header>
+									</article>
+									<article class="item">
+										<a class="image fit"><img src="images/devweb.jpg" alt="" /></a>
+										<header>
+											<h3>Développement d'Aplication Web</h3>
+										</header>
+								</div>
+								
+							</div>
+{% endblock %}
